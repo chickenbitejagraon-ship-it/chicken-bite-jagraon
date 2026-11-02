@@ -1,6 +1,149 @@
 
 <!DOCTYPE html>
 <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chicken Bite Jagraon | Online Food Order</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,sans-serif;background:#101010;color:white}
+header{background:#f47700;color:#111;text-align:center;padding:25px 12px}
+header h1{font-size:30px;margin:0}
+header p{font-weight:bold;margin:8px}
+nav{background:#222;padding:14px;text-align:center;position:sticky;top:0;z-index:5}
+nav a{color:white;text-decoration:none;margin:0 9px;font-weight:bold}
+.hero{text-align:center;padding:55px 15px;background:linear-gradient(130deg,#381800,#111)}
+.hero h2{color:#ff8a00;font-size:32px}
+.hero p{font-size:17px}
+.btn{display:inline-block;background:#f47700;color:#111;padding:13px 20px;border-radius:8px;text-decoration:none;font-weight:bold;margin:7px}
+section{padding:28px 14px;max-width:1100px;margin:auto}
+.section-title{text-align:center;color:#ff8a00;margin:25px 0}
+.menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
+.item{background:#242424;border:1px solid #444;border-radius:13px;overflow:hidden}
+.item img{width:100%;height:155px;object-fit:cover;display:block}
+.details{padding:14px}
+.item h3{margin:0 0 9px}
+.price{color:#ff9b24;font-weight:bold}
+.order{background:#222;padding:20px;border-radius:12px}
+input,select,textarea{width:100%;padding:13px;margin:8px 0;border:0;border-radius:7px;font-size:16px}
+button{background:#f47700;color:#111;border:0;padding:14px;border-radius:7px;font-weight:bold;font-size:17px;width:100%;cursor:pointer}
+footer{text-align:center;background:#222;padding:25px;color:#ddd}
+.note{text-align:center;color:#bbb;font-size:13px}
+</style>
+</head>
+<body>
+
+<header>
+<h1>🍗 CHICKEN BITE JAGRAON</h1>
+<p>Fresh • Crispy • Delicious</p>
+<p>📍 Near 5 No. Chungi, Jagraon</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#menu">Menu</a>
+<a href="#order">Order</a>
+</nav>
+
+<div class="hero" id="home">
+<h2>Welcome to Chicken Bite!</h2>
+<p>Delicious Chicken, Fish, Mutton & Veg Food</p>
+<p>🚚 Delivery Available</p>
+<a class="btn" href="#menu">View Menu</a>
+<a class="btn" href="https://wa.me/918699188013">WhatsApp Order</a>
+</div>
+
+<section id="menu">
+<h2 class="section-title">🐟 FISH MENU</h2>
+<div class="menu">
+<div class="item"><img src="https://images.unsplash.com/photo-1510130387422-82bed34b37e5" alt="Fish tikka"><div class="details"><h3>Fish Tikka</h3><p class="price">₹320</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2" alt="Fish fry"><div class="details"><h3>Fish Hariyali Tikka</h3><p class="price">₹340</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2" alt="Fish"><div class="details"><h3>Fish Afghani</h3><p class="price">₹340</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2" alt="Fish"><div class="details"><h3>Fish Malai Tikka</h3><p class="price">₹340</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2" alt="Fish"><div class="details"><h3>Fish Achari Tikka</h3><p class="price">₹350</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1510130387422-82bed34b37e5" alt="Fish fingers"><div class="details"><h3>Fish Finger (250g)</h3><p class="price">₹400</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2" alt="Fish chilly"><div class="details"><h3>Fish Chilly</h3><p class="price">₹380</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1547592180-85f173990554" alt="Fish curry"><div class="details"><h3>Fish Curry</h3><p class="price">₹400</p></div></div>
+</div>
+
+<h2 class="section-title">🍗 CHICKEN MENU</h2>
+<div class="menu">
+<div class="item"><img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0" alt="Tandoori chicken"><div class="details"><h3>Tandoori Chicken Half</h3><p class="price">₹260</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0" alt="Tandoori chicken"><div class="details"><h3>Tandoori Chicken Full</h3><p class="price">₹500</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d" alt="Roasted chicken"><div class="details"><h3>White Roasted Half</h3><p class="price">₹280</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d" alt="Roasted chicken"><div class="details"><h3>White Roasted Full</h3><p class="price">₹550</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1608039829572-78524f79c4c7" alt="Chicken legs"><div class="details"><h3>Steam Leg (4 Pcs)</h3><p class="price">₹250</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d" alt="Chicken gravy"><div class="details"><h3>Lemon Chicken Gravy</h3><p class="price">₹350</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d" alt="Pepper chicken"><div class="details"><h3>Black Pepper Chicken</h3><p class="price">₹350</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1608039829572-78524f79c4c7" alt="Chilly chicken"><div class="details"><h3>Chicken Chilly</h3><p class="price">₹300</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1608039829572-78524f79c4c7" alt="Seekh kebab"><div class="details"><h3>Seekh Kebab</h3><p class="price">Ask for price</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d" alt="Punjabi chicken"><div class="details"><h3>Punjabi Chicken</h3><p class="price">Ask for price</p></div></div>
+</div>
+
+<h2 class="section-title">🥩 MUTTON MENU</h2>
+<div class="menu">
+<div class="item"><img src="https://images.unsplash.com/photo-1544025162-d76694265947" alt="Mutton curry"><div class="details"><h3>Mutton Curry</h3><p class="price">Ask for price</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1544025162-d76694265947" alt="Mutton masala"><div class="details"><h3>Mutton Masala</h3><p class="price">Ask for price</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1544025162-d76694265947" alt="Rogan josh"><div class="details"><h3>Mutton Rogan Josh</h3><p class="price">Ask for price</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1544025162-d76694265947" alt="Mutton kebab"><div class="details"><h3>Mutton Seekh Kebab</h3><p class="price">Ask for price</p></div></div>
+</div>
+
+<h2 class="section-title">🥦 VEG MENU & SNACKS</h2>
+<div class="menu">
+<div class="item"><img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877" alt="French fries"><div class="details"><h3>Peri Peri French Fry</h3><p class="price">₹130</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877" alt="Cheese fries"><div class="details"><h3>Cheese French Fry</h3><p class="price">₹180</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398" alt="Mushroom chilly"><div class="details"><h3>Mushroom Chilly</h3><p class="price">₹250</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398" alt="Paneer"><div class="details"><h3>Chilli Paneer</h3><p class="price">Ask for price</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd" alt="Veg salad"><div class="details"><h3>Veg Salad</h3><p class="price">Ask for price</p></div></div>
+<div class="item"><img src="https://images.unsplash.com/photo-1547592180-85f173990554" alt="Veg soup"><div class="details"><h3>Veg Soup</h3><p class="price">Ask for price</p></div></div>
+</div>
+<p class="note">Food photos are sample images. Prices marked “Ask for price” will be confirmed on WhatsApp.</p>
+</section>
+
+<section id="order">
+<h2 class="section-title">🛒 PLACE YOUR ORDER</h2>
+<div class="order">
+<form onsubmit="sendOrder(event)">
+<input id="name" placeholder="Your Name" required>
+<input id="phone" type="tel" placeholder="Your Phone Number" required>
+<textarea id="address" placeholder="Full Delivery Address" required></textarea>
+<textarea id="food" placeholder="Food Items & Quantity" required></textarea>
+<select id="payment">
+<option>Cash on Delivery</option>
+<option>Online Payment - Confirm on WhatsApp</option>
+</select>
+<button type="submit">Send Order on WhatsApp</button>
+</form>
+</div>
+</section>
+
+<footer>
+<h3>CHICKEN BITE JAGRAON</h3>
+<p>📍 Near 5 No. Chungi, Jagraon</p>
+<p>📞 +91 8699188013</p>
+<p>🚚 Delivery Available</p>
+<p>Thank you for ordering ❤️</p>
+</footer>
+
+<script>
+function sendOrder(e){
+e.preventDefault();
+let msg="NEW ORDER - CHICKEN BITE JAGRAON\n"+
+"Name: "+document.getElementById("name").value+"\n"+
+"Phone: "+document.getElementById("phone").value+"\n"+
+"Address: "+document.getElementById("address").value+"\n"+
+"Items: "+document.getElementById("food").value+"\n"+
+"Payment: "+document.getElementById("payment").value;
+window.open("https://wa.me/918699188013?text="+encodeURIComponent(msg),"_blank");
+}
+</script>
+</body>
+</html>
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
